@@ -2,4 +2,29 @@
 layout: default
 title: Home
 ---
-{{ "Hello World!" | downcase }}
+<h1>Biography</h1>
+<p>
+    Scott Davidoff is a Principal Research Scientist at the NASA Jet Propulsion Laboratory. His work uses the methods of Human-Centered Design to investigate how scientists and engineers work with high dimensional data to understand both our universe and the robots we use to explore it. He also works to transform how organizations solve technical problems, and has invented problem solving techniques practiced at the world's leading companies and taught at its leading universities.
+</p>
+<p>
+    Broadly influencing Human-Computer Interaction research, Dr. Davidoff serves on program committees for the US National Science Foundation (NSF), the US Office of Naval Research (ONR), and the Association for Computing Machinery’s (ACM) Computer Human-Interaction (CHI) and Designing Interactive Systems (DIS) Conferences. His work has won multiple Best Paper and NASA awards. He also co-founded Virtualitics, the world's first immersive explainable artificial intelligence product.
+</p>
+<p>
+    Dr. Davidoff has a PhD, MS and MHCI in Human-Computer Interaction from Carnegie Mellon University, and an AB in English and Political Theory from Duke University. 
+</p>
+
+<h1>Publications</h1>
+<ul>
+
+{% assign publications = site.publications | sort: 'published-date' | reverse %}
+{% for pub in publications %}
+    <li>
+    <h2><a href="{{ pub.url }}">{{ pub.title }}</a></h2>
+    <h3>{{ pub.venue }}</h3>
+    <p>{{ pub.authors | markdownify }}</p>
+    <p>{{ pub.content | markdownify }}</p>
+    <p>{{ pub.published-date | markdownify }}</p>
+    </li>
+    {% endfor %}
+
+</ul>

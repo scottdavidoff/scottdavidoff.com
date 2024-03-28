@@ -1,0 +1,15 @@
+---
+layout: default
+title: Publications
+---
+<h1>Publications</h1>
+
+<ul>
+    {% for pub in site.publications %}
+      <li>
+        <h2><a href="{{ pub.url }}">{{ pub.title }}</a></h2>
+        <h3>{{ pub.venue }}</h3>
+        <p>{{ pub.content | markdownify }}</p>
+      </li>
+    {% endfor %}
+  </ul>
