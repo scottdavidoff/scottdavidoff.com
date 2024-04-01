@@ -21,6 +21,7 @@ title: Home
     <li>
     <h2><a href="{{ pub.url }}">{{ pub.title }}</a></h2>
     <h3>{{ pub.venue }}</h3>
+    <a href="{{ pub.pdf }}">PDF</a>
     <p>{{ pub.authors | markdownify }}</p>
     <p>{{ pub.content | markdownify }}</p>
     <p>{{ pub.published-date | markdownify }}</p>

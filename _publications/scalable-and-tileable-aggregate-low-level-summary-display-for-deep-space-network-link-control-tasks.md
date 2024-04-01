@@ -1,13 +1,13 @@
 ---
 name: Scalable and Tileable Aggregate Low-Level Summary Display for Deep Space Network Link Control Tasks
-authors:  Alexandra Holloway,Bryan Duran,Scott Davidoff,E. Jay Wyatt,Sourjya Roy Sinha
+authors: Alexandra Holloway,Bryan Duran,Scott Davidoff,E. Jay Wyatt,Sourjya Roy Sinha
 doi: "https://www.techbriefs.com/component/content/article/26162-npo-49720"
 published-date: 2017-01-01
 venue: NASA Tech Briefs
 venue_short: NASA Tech Briefs
-venue-www: 
-session-name: 
-session-www: 
+venue-www: https://www.techbriefs.com/tb/magazine/archives
+session-name: January 2017
+session-www: https://www.techbriefs.com/component/content/article/28090-doc-6977 
 paper-www: 
 project-www: 
 # site.publication-types.short-name { full-paper, paper, poster, industry }
