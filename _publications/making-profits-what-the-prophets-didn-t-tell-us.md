@@ -1,6 +1,8 @@
 ---
 name: "Making Profits: What the Prophets Didn’t Tell Us"
-authors: Heidi Dangelmaier,Scott Davidoff 
+authors:
+    - Heidi Dangelmaier
+    - Scott Davidoff
 published-date: 2002-03-01
 venue: Graphis
 venue-short: Graphis
