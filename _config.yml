@@ -1,3 +1,13 @@
+title: Scott Davidoff
+email: sd@scottdavidoff.com
+description: > # this means to ignore newlines until "baseurl:"
+   Principal Research Scientist and Designer at the NASA Jet Propulsion Laboratory. Using Design as a lens to for scientific discovery of the Universe, and the people and robots we use to explore it.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://scottdavidoff.com" # the base hostname & protocol for your site
+production_url: "https://scottdavidoff.com"
+github_username: davidoff
+permalink: /blog/:year/:month/:title.html
+
 collections:
   publications:
     output: true
